@@ -10,9 +10,9 @@ inputmanyfile:
 tracing:
 	strace -c ./prb1 ./prb1 input_1.txt input_2.txt input_2.txt output.txt
 problem2multiprocess:
-	./prb2 myfile.out
+	./prb2 inputfile
 problem2singleprocess:
-	./pr2a myfile.out
+	./pr2a inputfile
 tree:
 	./prb3
 	
