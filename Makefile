@@ -4,9 +4,9 @@ compile:
 all:
 	compile
 input2file:
-	./prb1 hello.py hi.py output.txt
+	./prb1 input_text_1.txt input_text_2.txt output.txt
 inputmanyfile:
-	./pr12 hi.py hello.py hi.py output.txt
+	./pr12 input_text_1.txt input_text_2.txt output.txt
 tracing:
 	strace -c ./prb1 ./prb1 hi.py hello.py output.txt
 problem2multiprocess:
